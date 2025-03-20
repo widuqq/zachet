@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лендинг</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Заголовок 1</h1>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#table" class="nav__link">Таблица</a>
+          </li>
+          <li class="nav__item">
+            <a href="#qa" class="nav__link">Вопросы и Ответы</a>
+          </li>
+          <li class="nav__item">
+            <a href="#info" class="nav__link">Дополнительная информация</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="table" class="section table">
+        <h2 class="section__title">Заголовок таблицы</h2>
+        <table class="table__content">
+          <thead class="table__header">
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Заголовок 3</th>
+              <th class="table__cell table__cell--header">Заголовок 4</th>
+            </tr>
+          </thead>
+          <tbody class="table__body">
+            <tr class="table__row">
+              <td class="table__cell">Ячейка 1</td>
+              <td class="table__cell">Ячейка 2</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Ячейка 3</td>
+              <td class="table__cell">Ячейка 4</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Ячейка 5</td>
+              <td class="table__cell">Ячейка 6</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="qa" class="section qa">
+        <h2 class="section__title">Вопросы и Ответы</h2>
+        <div class="qa__content">
+          <ul class="qa__list qa__list--questions">
+            <li class="qa__item">Вопрос 1</li>
+            <li class="qa__item">Вопрос 2</li>
+            <li class="qa__item">Вопрос 3</li>
+            <li class="qa__item">Вопрос 4</li>
+            <li class="qa__item">Вопрос 5</li>
+            <li class="qa__item">Вопрос 6</li>
+          </ul>
+          <ul class="qa__list qa__list--answers">
+            <li class="qa__item">Ответ 1.1</li>
+            <li class="qa__item">Ответ 1.2</li>
+            <li class="qa__item">Ответ 3.1</li>
+            <li class="qa__item">Ответ 4.1</li>
+            <li class="qa__item">Ответ 4.2</li>
+            <li class="qa__item">Ответ 6.1</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="info" class="section info">
+        <h2 class="section__title">Дополнительная информация</h2>
+        <div class="info__frames">
+          <div class="info__frame">Фрейм 1</div>
+          <div class="info__frame">Фрейм 2</div>
+          <div class="info__frame info__frame--scroll-vertical">
+            Фрейм 3 с вертикальной полосой прокрутки
+          </div>
+          <div class="info__frame info__frame--scroll-both">
+            Фрейм 4 с горизонтальной и вертикальной полосами прокрутки
+          </div>
+          <div class="info__frame">Фрейм 5</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">&copy; 2023 Лендинг</p>
+    </footer>
+  </body>
 </html>

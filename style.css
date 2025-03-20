@@ -1,0 +1,119 @@
+/* Блок header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header__title {
+    margin: 0;
+}
+
+/* Элемент nav внутри header */
+.header__nav {
+    margin-top: 10px;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+/* Блок main */
+.main {
+    padding: 20px;
+}
+
+/* Блок section */
+.section {
+    margin-bottom: 40px;
+}
+
+.section__title {
+    color: #333;
+}
+
+/* Блок table */
+.table__content {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table__header {
+    background-color: #f2f2f2;
+}
+
+.table__row {
+    border: 1px solid #ddd;
+}
+
+.table__cell {
+    padding: 15px;
+    text-align: left;
+}
+
+.table__cell--header {
+    font-weight: bold;
+}
+
+/* Блок qa */
+.qa__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qa__list {
+    list-style-type: none;
+    padding: 0;
+    width: 45%;
+}
+
+.qa__item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Блок info */
+.info__frames {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__frame {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.info__frame--scroll-vertical {
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.info__frame--scroll-both {
+    overflow: scroll;
+    height: 100px;
+    width: 100%;
+}
+
+/* Блок footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 
